@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.section{
+    display: flex;
+}
+img{
+    width: 42rem;
+    height: 41rem;
+}
+.img1{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+h1{
+    font-family: monospace;
+    text-align: center;
+}
+p{
+    padding: 25px 10px 25px 10px;
+    text-align: center;
+} 
+form{
+    text-align: center;
+    position: relative;
+    left: 11rem;
+    top: 4rem;
+}
+form h1{
+    font-size: 50px;
+    color: rgb(140, 0, 255);
+}
+form h6{
+    color: rgb(173, 173, 173);
+}
+.left a{ 
+    float: right;
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+    font-size: 13px;
+    padding: 15px 0 20px 10rem;
+}
+i{
+    color: rgb(173, 173, 173);;
+}
+.input input{
+    width: 15rem;
+    height: 33px;
+    border-radius: 10px;
+    border-color: rgb(140, 0, 255);
+    margin: 20px 0 10px 0;
+    color: rgb(173, 173, 173);
+    padding: 13px;
+}
+button{
+    width: 5.3rem;
+    height: 35px;
+    background-color: rgb(140, 0, 255);
+    border-color:  rgb(140, 0, 255);
+    color: white;
+    border-radius: 10px;
+}
+h5::before{
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #000;
+    left: 15px;
+    top: 22rem;
+    position: absolute;
+}
+h5::after{
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #000;
+    right: 15px;
+    top: 22rem;
+    position: absolute;
+    
+}
+.icons i{
+    border: 1px solid rgb(140, 0, 255);
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-color: rgb(215, 177, 247);
+    color: rgb(140, 0, 255);
+    padding-top: 10px;
+    margin: 20px 0 20px;
+    font-size: 20px;
+}
+.right{
+    color: #000;
+}
+.right a{
+    text-decoration: none;
+    color: #353535;
+}
